@@ -1,0 +1,10 @@
+.btn {
+    padding: 11 22px;
+    border: 1px solid white;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
+    background-color: transparent;
+}
