@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 main { overflow: var(--main-overflow); }
 
 section { padding: var(--section-padding-mobile);  }
