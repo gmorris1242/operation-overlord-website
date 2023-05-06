@@ -38,3 +38,10 @@ header { z-index: 1000; }
         object-fit: cover;
     }
 }
+
+#bandcamp-follow {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 168px;
+}
