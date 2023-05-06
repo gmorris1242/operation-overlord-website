@@ -44,4 +44,5 @@ header { z-index: 1000; }
     bottom: 10px;
     right: 10px;
     width: 168px;
+    z-index: 2000;
 }
