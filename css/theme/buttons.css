@@ -8,3 +8,8 @@
     cursor: pointer;
     background-color: transparent;
 }
+
+.btn.btn-secondary {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}

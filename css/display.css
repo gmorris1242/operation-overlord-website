@@ -1,6 +1,7 @@
 /* DISPLAY HELPERS */
 .inline-block { display: inline-block !important; }
 .block { display: block !important; }
+.freeze { overflow: hidden; }
 
 @media (min-width: 600px) {
   .md-inline-block { display: inline-block !important; }

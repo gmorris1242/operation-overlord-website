@@ -36,4 +36,11 @@ $(document).ready(function() {
     sections.forEach(function(section) {
       observer.observe(section);
     })
+
+
+    $("body").addClass("freeze")
+    $(".modal-btn").click(() => {
+      $(".modal").remove();
+      $("body").removeClass("freeze")
+    });
   })
