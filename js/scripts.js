@@ -38,9 +38,9 @@ $(document).ready(function() {
     })
 
 
-    $("body").addClass("freeze")
-    $(".modal-btn").click(() => {
-      $(".modal").remove();
-      $("body").removeClass("freeze")
-    });
+    // $("body").addClass("freeze")
+    // $(".modal-btn").click(() => {
+    //   $(".modal").remove();
+    //   $("body").removeClass("freeze")
+    // });
   })
