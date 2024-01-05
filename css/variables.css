@@ -15,7 +15,7 @@
   --white: #FFF;
   --red: #E23838;
   --orange: #F78200;
-  --yellow: #FFB900;
+  --yellow: #D3D26B;
   --green: #5EBD3E;
   --blue: #009CDF;
   --indigo: #31457D;
@@ -23,8 +23,8 @@
   --teal: #2D9FA2;
   --heading-color: #000;
   --copy-color: #000;
-  --primary-color: #E98B6C;
-  --secondary-color: #67B785;
+  --primary-color: #D86929;
+  --secondary-color: #000;
   --tertiary-color: $blue;
   --success-color: #2FAC58;
   --info-color: #25327C;

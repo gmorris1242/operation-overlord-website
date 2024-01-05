@@ -1,17 +1,17 @@
 section#top { height: 100vh; }
 
 .bg1 {
-    background: url('../../assets/bg1.png') center no-repeat;
+    background: url('../../assets/bg1.jpg') center no-repeat;
     background-size: cover;
 }
 
 .bg2 {
-    background: url('../../assets/bg2.png') center no-repeat;
+    background: url('../../assets/bg2.jpg') center no-repeat;
     background-size: cover;
 }
 
 .bg3 {
-    background: url('../../assets/bg3.png') center no-repeat;
+    background: url('../../assets/bg3.jpg') center no-repeat;
     background-size: cover;
 }
 
