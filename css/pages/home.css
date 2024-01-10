@@ -1,4 +1,5 @@
-section#top { height: 100vh; }
+section#top,
+.full-page { height: 100vh; }
 
 .bg1 {
     background: url('../../assets/bg1.jpg') center no-repeat;
@@ -45,4 +46,12 @@ header { z-index: 1000; }
     right: 10px;
     width: 168px;
     z-index: 2000;
+}
+
+.icon {
+  transition: all linear 300ms;
+}
+
+.icon:hover {
+  filter: brightness(0%) invert(100%);
 }
