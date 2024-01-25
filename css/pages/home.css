@@ -16,7 +16,8 @@ section#top,
     background-size: cover;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.main-icon:hover {
     text-shadow: 0px 4px 4px rgba(0,0,0,.75);
     transition: text-shadow linear 300ms;
 }
@@ -48,10 +49,16 @@ header { z-index: 1000; }
     z-index: 2000;
 }
 
-.icon {
+.icon,
+.main-icon {
   transition: all linear 300ms;
 }
 
-.icon:hover {
+.main-icon {
   filter: brightness(0%) invert(100%);
+  max-width: 100px;
+}
+
+.main-icon:hover {
+  filter: brightness(100%) invert(0%);
 }
