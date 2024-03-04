@@ -1,6 +1,6 @@
-const randomNum = Math.floor(Math.random() * 3) + 1;
-$("section#top").removeClass();
-$("section#top").addClass(`bg${randomNum}`);
+// const randomNum = Math.floor(Math.random() * 3) + 1;
+// $("section#top").removeClass();
+// $("section#top").addClass(`bg${randomNum}`);
 
 $("form").submit(function() {
     $(this).hide();
@@ -38,9 +38,9 @@ $(document).ready(function() {
     })
 
 
-    // $("body").addClass("freeze")
-    // $(".modal-btn").click(() => {
-    //   $(".modal").remove();
-    //   $("body").removeClass("freeze")
-    // });
+    $("body").addClass("freeze")
+    $(".modal-btn").click(() => {
+      $(".modal").remove();
+      $("body").removeClass("freeze")
+    });
   })

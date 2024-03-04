@@ -16,6 +16,11 @@ section#top,
     background-size: cover;
 }
 
+.bg-clouds {
+  background: url('../../assets/cloud_bg.jpg') center no-repeat;
+  background-size: cover;
+}
+
 .nav-link:hover,
 .main-icon:hover {
     text-shadow: 0px 4px 4px rgba(0,0,0,.75);
@@ -50,15 +55,16 @@ header { z-index: 1000; }
 }
 
 .icon,
-.main-icon {
+.main-icon img {
   transition: all linear 300ms;
 }
 
-.main-icon {
+.main-icon img {
   filter: brightness(0%) invert(100%);
-  max-width: 100px;
 }
 
-.main-icon:hover {
+.main-icon:hover img {
   filter: brightness(100%) invert(0%);
 }
+
+.main-icon { max-width: 100px; }
