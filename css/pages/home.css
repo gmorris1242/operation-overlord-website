@@ -1,70 +1,91 @@
 section#top,
 .full-page { height: 100vh; }
 
+header {
+  position: absolute;
+  z-index: 9999;
+}
+
+header form {
+  display: flex;
+}
+
 .bg1 {
-    background: url('../../assets/bg1.jpg') center no-repeat;
-    background-size: cover;
-}
-
-.bg2 {
-    background: url('../../assets/bg2.jpg') center no-repeat;
-    background-size: cover;
-}
-
-.bg3 {
-    background: url('../../assets/bg3.jpg') center no-repeat;
-    background-size: cover;
-}
-
-.bg-clouds {
-  background: url('../../assets/cloud_bg.jpg') center no-repeat;
+  background: url('../../assets/home/promo2.jpg') top center no-repeat;
   background-size: cover;
+}
+
+.logo,
+.nav-btn {
+  position: relative;
+  z-index: 200;
+}
+
+.logo {
+  filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+}
+
+.nav-btn {
+  color: var(--white);
+  font-size: 22px;
+  font-weight: bold;
+  text-shadow: 5px 5px 5px rgba(0,0,0,.5);
+}
+
+@media (min-width: 1000px) {
+  .nav-btn { font-size: 32px; }
+}
+
+.stripes {
+  display: flex;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 100;
+}
+
+@media (min-width: 1000px) {
+  .stripes {
+    left: 0;
+  }
+}
+
+.stripes div {
+  width: 5px;
+  height: 100%;
+}
+
+@media (min-width: 1000px) {
+  .stripes div {
+    width: 20px;
+  }
 }
 
 .nav-link:hover,
 .main-icon:hover {
-    text-shadow: 0px 4px 4px rgba(0,0,0,.75);
-    transition: text-shadow linear 300ms;
+  text-shadow: 0px 4px 4px rgba(0,0,0,.75);
+  transition: text-shadow linear 300ms;
 }
 
-header {
-    position: fixed;
+video {
+  filter: grayscale(.4);
 }
 
 .exterior-links { padding: 5px; }
 
 .exterior-links li {
-    width: 30px;
-    margin: 0 10px;
+  width: 30px;
+  margin: 0 10px;
 }
-
-header { z-index: 1000; }
 
 @media (min-width: 1000px) {
-    .full-img {
-        object-fit: cover;
-    }
+  .full-img {
+    object-fit: cover;
+  }
 }
 
-#bandcamp-follow {
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    width: 168px;
-    z-index: 2000;
-}
-
-.icon,
-.main-icon img {
+.icon {
   transition: all linear 300ms;
-}
-
-.main-icon img {
   filter: brightness(0%) invert(100%);
 }
-
-.main-icon:hover img {
-  filter: brightness(100%) invert(0%);
-}
-
-.main-icon { max-width: 100px; }

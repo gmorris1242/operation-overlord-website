@@ -4,7 +4,7 @@
 
 $("form").submit(function() {
     $(this).hide();
-    $("#thank-you").html("<h2 class='heading fz-30'>Thank You!</h2>");
+    $("#thank-you").html("<h2 class='copy white fz-30'>Thank You!</h2>");
 })
 
 $(document).ready(function() {
@@ -38,7 +38,7 @@ $(document).ready(function() {
     })
 
 
-    $("body").addClass("freeze")
+    // $("body").addClass("freeze")
     $(".modal-btn").click(() => {
       $(".modal").remove();
       $("body").removeClass("freeze")
