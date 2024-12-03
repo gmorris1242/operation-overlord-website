@@ -9381,3 +9381,7 @@ html {
     text-align: justify !important;
   }
 }
+
+.past {
+  text-decoration: line-through;
+}
