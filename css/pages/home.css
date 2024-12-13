@@ -32,6 +32,10 @@ header form {
   text-shadow: 5px 5px 5px rgba(0,0,0,.5);
 }
 
+.nav-btn:hover {
+  color: var(--tertiary-color);
+}
+
 @media (min-width: 1000px) {
   .nav-btn { font-size: 32px; }
 }
