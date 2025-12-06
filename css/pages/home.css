@@ -1,4 +1,4 @@
-section#top,
+/* section#top,
 .full-page { height: 100vh; }
 
 header {
@@ -92,4 +92,33 @@ video {
 .icon {
   transition: all linear 300ms;
   filter: brightness(0%) invert(100%);
+} */
+
+.full-page { height: 100vh; }
+.half-page { height: 50vh; }
+
+#hero {
+  background: url('../../assets/promo/fav1.png') center no-repeat;
+  background-size: cover;
+  /* padding: 10px 0; */
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 16px;
+  filter: brightness(0%) invert(100%);
+}
+
+#hero .logo-row .wrapper { max-width: 700px;  }
+
+#listen {
+  background: url('../../assets/promo/fav8.png') center no-repeat;
+  background-size: cover;
+}
+
+#about img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }

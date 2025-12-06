@@ -13,3 +13,8 @@
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
 }
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
